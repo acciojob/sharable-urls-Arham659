@@ -1,13 +1,16 @@
-<!DOCTYPE html>
 <html>
   <body>
-	  <h3>https://localhost:8080/</h3>
-	  <form action="/" method="get">
-		  <input type="text" id="name" placeholder="Name" name="name" style="display:block;margin-bottom:10px" />
-		  <input type="number" id="year" placeholder="Year" name="year" style="display:block;margin-bottom:10px" />
-		  <input type="button" id="button" value="submit" />
-	  </form>
-    <script type="text/javascript" src="./script.js"></script>
+   <form action="./main.html" method="get">
+      <h3 id="url"> https://localhost:8080/</h3>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="year">Graduation year:</label><br>
+      <input type="number" id="year" name="year"><br><br>
+      <button type="submit" id="button">Submit</button>
+    </form>
+	  
+    <script type="text/javascript" src="./script.js">
+</script>
   </body>
 
 </html>
